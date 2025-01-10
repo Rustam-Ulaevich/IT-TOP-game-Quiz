@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="Victoryna">
+      <!-- <div style="DivImage"> -->
+      <div>
+        <img id="Qimg" />
+      </div>
+
+      <div>
+        <h2 id="Question"></h2>
+      </div>
+
+      <div class="Answers">
+        <button id="Ans1" onclick="Answered(1)"></button>
+        <button id="Ans2" onclick="Answered(2)"></button>
+        <button id="Ans3" onclick="Answered(3)"></button>
+        <button id="Ans4" onclick="Answered(4)"></button>
+      </div>
+
+      <div>
+        <button id="Next" onclick="NextQuestion()">
+					Следующий вопрос
+				</button>
+      </div>
+
+    </div>
+
+    <div id="End">
+      <h2 id="h2end"></h2>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

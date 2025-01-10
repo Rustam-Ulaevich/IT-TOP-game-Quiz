@@ -1,0 +1,42 @@
+body{
+    background: url(image/Background.png) no-repeat center center
+   fixed;
+    background-size: cover;
+   
+}
+#h2end{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+#Next{
+    margin: auto;
+    display: block;
+}
+#Question{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+}
+img{
+    display: block;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 10%;
+    height: 350px;
+    max-width: 800px;
+}
+.Answers{
+    margin: 30px auto;
+    width: 550px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+button{
+    margin: 10px;
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    font-size: 1.4em;
+}
